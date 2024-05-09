@@ -1,0 +1,2 @@
+[2024-05-08 17:13:40] WARNING: E_WARNING: Undefined array key "errors" {"code":2,"message":"Undefined array key \"errors\"","file":"C:\\web\\bootcamp\\CRM\\EspoCRM\\install\\vendor\\smarty\\libs\\sysplugins\\smarty_internal_templatebase.php(143) : eval()'d code","line":4} 
+[2024-05-08 17:13:40] WARNING: E_WARNING: Attempt to read property "value" on null {"code":2,"message":"Attempt to read property \"value\" on null","file":"C:\\web\\bootcamp\\CRM\\EspoCRM\\install\\vendor\\smarty\\libs\\sysplugins\\smarty_internal_templatebase.php(143) : eval()'d code","line":4} 
