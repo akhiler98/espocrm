@@ -1,0 +1,5 @@
+{
+    "/Autocrm/action/FindContactsByEmail": {
+        "get": "\\Espo\\Custom\\Controllers\\AutocrmController::findContactsByEmail"
+    }
+}

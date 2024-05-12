@@ -27,7 +27,6 @@
  ************************************************************************/
 
 define('crm:views/lead/detail', ['views/detail'], function (Dep) {
-
     return Dep.extend({
 
         setup: function () {

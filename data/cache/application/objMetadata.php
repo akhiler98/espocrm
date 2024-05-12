@@ -6795,7 +6795,9 @@ return (object) [
             ]
           ]
         ]
-      ]
+      ],
+      'kanbanViewMode' => false,
+      'color' => NULL
     ],
     'Webhook' => (object) [
       'controller' => 'controllers/record',
@@ -7664,7 +7666,7 @@ return (object) [
       'controller' => 'controllers/record',
       'aclPortal' => 'crm:acl-portal/contact',
       'views' => (object) [
-        'detail' => 'crm:views/contact/detail'
+        'detail' => 'custom:views/contact/detail'
       ],
       'recordViews' => (object) [
         'detail' => 'crm:views/contact/record/detail',
@@ -17487,6 +17489,8 @@ return (object) [
           1 => 'userName',
           2 => 'emailAddress'
         ],
+        'fullTextSearch' => false,
+        'countDisabled' => false,
         'sortBy' => 'userName',
         'asc' => true
       ],
@@ -17498,7 +17502,8 @@ return (object) [
             1 => 'deleteId'
           ]
         ]
-      ]
+      ],
+      'optimisticConcurrencyControl' => false
     ],
     'UserData' => (object) [
       'fields' => (object) [
@@ -20645,6 +20650,8 @@ return (object) [
           0 => 'name',
           1 => 'emailAddress'
         ],
+        'fullTextSearch' => false,
+        'countDisabled' => false,
         'sortBy' => 'createdAt',
         'asc' => false
       ],
@@ -20680,7 +20687,8 @@ return (object) [
             1 => 'deleted'
           ]
         ]
-      ]
+      ],
+      'optimisticConcurrencyControl' => false
     ],
     'Document' => (object) [
       'fields' => (object) [
@@ -26887,7 +26895,8 @@ return (object) [
       'beforeLinkHookClassNameList' => [],
       'beforeUnlinkHookClassNameList' => [],
       'afterLinkHookClassNameList' => [],
-      'afterUnlinkHookClassNameList' => []
+      'afterUnlinkHookClassNameList' => [],
+      'updateDuplicateCheck' => false
     ],
     'DocumentFolder' => (object) [
       'massActions' => (object) [
@@ -27586,7 +27595,11 @@ return (object) [
         ]
       ],
       'customizable' => true,
-      'object' => true
+      'object' => true,
+      'stream' => false,
+      'disabled' => false,
+      'statusField' => NULL,
+      'kanbanStatusIgnoreList' => NULL
     ],
     'UserData' => (object) [
       'entity' => true
@@ -27741,7 +27754,10 @@ return (object) [
       'duplicateCheckFieldList' => [
         0 => 'name',
         1 => 'emailAddress'
-      ]
+      ],
+      'disabled' => false,
+      'statusField' => NULL,
+      'kanbanStatusIgnoreList' => NULL
     ],
     'Document' => (object) [
       'entity' => true,

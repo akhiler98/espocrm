@@ -299,8 +299,8 @@ return [
   'wysiwygCodeEditorDisabled' => false,
   'customPrefixDisabled' => false,
   'listPagination' => true,
-  'cacheTimestamp' => 1715289754,
-  'microtime' => 1715289754.578084,
+  'cacheTimestamp' => 1715519040,
+  'microtime' => 1715519040.76905,
   'siteUrl' => 'http://www.espocrm.test',
   'fullTextSearchMinLength' => 4,
   'appTimestamp' => 1715189105

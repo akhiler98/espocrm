@@ -30,4 +30,5 @@ define('crm:views/account/detail', ['views/detail'], function (Dep) {
 
     /** Left for bc. */
     return Dep.extend({});
+    
 });

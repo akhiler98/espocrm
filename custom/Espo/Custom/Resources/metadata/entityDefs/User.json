@@ -1,0 +1,14 @@
+{
+    "collection": {
+        "orderBy": "userName",
+        "order": "asc",
+        "textFilterFields": [
+            "name",
+            "userName",
+            "emailAddress"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    },
+    "optimisticConcurrencyControl": false
+}
